@@ -3,7 +3,6 @@
   "version": "0.9.0",
   "description": "Tiny logging framework with a similar interface to winston. Design to work with cloudflare workers.",
   "module": "true",
-  "private": "false",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
