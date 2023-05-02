@@ -1,7 +1,7 @@
 {
   "name": "@studio-bogus/logging",
   "version": "1.0.2",
-  "description": "Tiny logging framework with a similar interface to winston. Design to work with cloudflare workers.",
+  "description": "Tiny logging framework with a similar interface to winston. Designed to work with cloudflare workers.",
   "type": "module",
   "scripts": {
     "build": "tsc",
@@ -28,6 +28,7 @@
   },
   "exports": {
     ".": "./dist/index.js",
+    "./logtail": "./dist/logtail.js",
     "./*": "./dist/*"
   },
   "devDependencies": {
