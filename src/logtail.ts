@@ -1,4 +1,4 @@
-import { LogEntry, Transport } from './logger';
+import { LogEntry, Transport } from './logger.js';
 
 const LOGTAIL_REMOTE = `https://in.logtail.com`;
 

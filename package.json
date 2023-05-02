@@ -2,7 +2,7 @@
   "name": "@studio-bogus/logging",
   "version": "1.0.1",
   "description": "Tiny logging framework with a similar interface to winston. Design to work with cloudflare workers.",
-  "module": "true",
+  "type": "module",
   "scripts": {
     "build": "tsc",
     "clean": "rimraf dist",
