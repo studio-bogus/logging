@@ -1,0 +1,28 @@
+{
+  "name": "@studio-bogus/logging",
+  "version": "0.9.0",
+  "description": "Tiny logging framework with a similar interface to winston. Design to work with cloudflare workers.",
+  "module": "true",
+  "private": "false",
+  "scripts": {
+    "build": "tsc",
+    "clean": "rimraf dist",
+    "release": "release-it"
+  },
+  "keywords": [],
+  "author": "Gavenda <gavenda@disroot.org>",
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "exports": {
+    "./*": "./dist/*"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20230404.0",
+    "@tsconfig/node18": "2.0.0",
+    "release-it": "15.10.2",
+    "rimraf": "5.0.0",
+    "typescript": "5.0.4"
+  }
+}
