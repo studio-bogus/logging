@@ -12,9 +12,22 @@
   "author": "Gavenda <gavenda@disroot.org>",
   "license": "MIT",
   "files": [
-    "dist/**"
+    "dist"
   ],
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      "dist/index.d.ts": [
+        "dist/index.d.ts"
+      ],
+      "*": [
+        "dist/*"
+      ]
+    }
+  },
   "exports": {
+    ".": "./dist/index.js",
     "./*": "./dist/*"
   },
   "devDependencies": {
