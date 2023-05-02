@@ -1,6 +1,6 @@
 {
   "name": "@studio-bogus/logging",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tiny logging framework with a similar interface to winston. Design to work with cloudflare workers.",
   "type": "module",
   "scripts": {
